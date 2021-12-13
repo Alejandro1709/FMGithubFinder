@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="container__top">
+      <p>devfinder</p>
+      <p>Dark <img src="./assets/icon-moon.svg" alt="moon" /></p>
+    </div>
+    <div class="container__middle">
+      <img class="search-icon" src="./assets/icon-search.svg" alt="search" />
+      <input class="input" type="text" placeholder="Search GitHub username..." />
+      <button class="searchBtn">Search</button>
+    </div>
+    <div class="container__bottom">
+      <div class="wrapper">
+        <div class="left">
+          <img class="prof" src="./assets/git.svg" alt="git" />
+        </div>
+        <div class="right">
+          <div class="right__top">
+            <div class="heading">
+              <h1 id="username">The Octocat</h1>
+              <p id="handle">@octocat</p>
+            </div>
+            <p id="date">Joined 25 Jan 2011</p>
+          </div>
+          <div class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates obcaecati culpa ea quis consectetur
+            maxime assumenda unde asperiores qui molestiae, recusandae soluta similique, atque nemo omnis adipisci
+            impedit iste tempora!
+          </div>
+          <div class="repos-holder">
+            <div class="item">
+              <p>Repos</p>
+              <p id="num_repos">8</p>
+            </div>
+            <div class="item">
+              <p>Followers</p>
+              <p id="num-followers">3938</p>
+            </div>
+            <div class="item">
+              <p>Following</p>
+              <p id="num-following">9</p>
+            </div>
+          </div>
+          <div class="contact-holder">
+            <ul>
+              <li>
+                <img src="./assets/icon-location.svg" alt="location" />
+                <span id="location">San Francisco</span>
+              </li>
+              <li>
+                <img src="./assets/icon-twitter.svg" alt="twitter" />
+                <span id="twitter">Not Available</span>
+              </li>
+              <li>
+                <img src="./assets/icon-website.svg" alt="website" />
+                <a id="web" href="https://github.blog">https://github.blog</a>
+              </li>
+              <li>
+                <img src="./assets/icon-company.svg" alt="work" />
+                <span id="work">@Github</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- devfinder
+
+  Light
+  Dark
+
+  Search GitHub username...
+  Search
+
+  Joined
+
+  Repos
+  Followers
+  Following -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
